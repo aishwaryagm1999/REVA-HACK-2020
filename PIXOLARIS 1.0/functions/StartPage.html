@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+	h1{
+		font-size: 40px;
+		font-family:monospace;
+		text-align: center;
+		position:sticky;
+		left:10px;
+		top:150px;
+	}
+	p{
+		color:grey;
+		font-family:Lobster,monospace;
+		text-align:center;
+		font-size:30px;
+	}
+	.black-background{
+		background-color:black;
+		opacity:0.8;
+	}
+	.white-text{
+		color:white;
+	}
+	.smaller-image{
+		width:500px;	
+	}
+	.black-border{
+		border-color:black;
+		border-width: 5px;
+		border-style:solid;
+		border-radius:20px;
+	}
+	ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		width:20%;
+		background-color:#dddddd;
+		border:1px solid #555;
+		height:6%;
+		position:fixed;
+		overflow:auto; 
+		overflow:hidden;
+		background-color:#333;
+		position:fixed;
+		top:0;
+		bottom:0;
+		width:100%;
+	}
+	li a{
+		display:block;
+		color:white;
+		text-align:center;
+		padding:14px 16px;
+		text-decoration: none;
+	}
+	li a:hover{
+		background-color:#111;
+		color:white;
+	}
+	.active{
+		background-color:#4CAF50;
+		color:white;
+	}
+	li{
+		text-align:center;
+		border-bottom:1px solid #555;
+		float:left;
+		border-right:1px solid #bbb;
+	}
+	li:last-child{
+		border-bottom:none;
+		border-right:none;
+	}
+	a{
+		display:block;
+		padding:8px;
+		background-color:#4CAF50;
+	}
+	.button{
+    background-color:#008CBA;
+    border:none;
+    color:white;
+    padding:15px 32px;
+    text-align:center;
+    font-size:16px;
+    display:inline-block;
+  }
+  .text{
+  	padding:15px;
+  }
+  .postingtext{
+  	padding:40px;
+  }
+  .button-1{
+    background-color:#008CBA;
+    border:none;
+    color:white;
+    padding:16px 32px;
+    text-align:center;
+    font-size:16px;
+    display:inline-block;
+  }
+  form{
+  	display:flex;
+  	flex-direction:row;
+  	border:1px solid grey;
+  	padding:2px;
+  }
+  input{
+  	flex-grow:2;
+  	border:none;
+  }
+  input:focus{
+  	outline:none;
+  }
+  button-11{
+  	border:1px solid blue;
+  	background:blue;
+  	color:white;
+  }
+  .button-111{
+    background-color:#4CAF50;
+    border:none;
+    color:white;
+    padding:15px 32px;
+    text-align:center;
+    font-size:20px;
+    display:inline-block;
+  }
+</style>
+<main>
+	<head>
+		<div class="black-background">
+		<h1 class="white-text",>PIXALORIS</h1>
+		<p>Capture The Moment</p1>
+		</div>
+	</head>
+	<form action="file:///C:/xampp/htdocs/SocialNetwork/functions/About.html">
+			<button class="button-111" type="submit">About</button>
+		</form>
+	<body background="C:\Users\anusha\Desktop\image.jpg">
+		<form action="file:///C:/xampp/htdocs/SocialNetwork/functions/SearchingWindow.html">
+			<input class="text" type="text" required placeholder="Search" size="50">
+			<button class="button" type="submit">Search</button>
+		</form>
+		<br>
+		<br>
+		<br>
+		<form>
+		<input class="postingtext" type="text" required placeholder="Share your thoughts" style="font-size: 20px" size="100">
+		<button class="button-11" type="submit">Add an Image</button>
+		<button class="button-1" type="submit">Post</button>
+		</form>
+		<ul>
+
+			<li><a href="default.asp">Home</a></li>
+			<li><a href="messages.asp">Messages</a></li>
+			<li><a href="contact.asp">Contact</a></li>
+			<li><a href="findpeople.asp">Find People</a></li>
+		</ul>
+		
+	</body>
+</main>
+</html>
